@@ -56,6 +56,7 @@ module SensuCookbook
       spec['metadata']['namespace'] = new_resource.namespace
       spec['metadata']['labels'] = new_resource.labels if new_resource.labels
       spec['metadata']['annotations'] = new_resource.annotations if new_resource.annotations
+      spec['filters'] = new_resource.filters if new_resource.filters
       spec['sha512'] = new_resource.sha512
       spec['url'] = new_resource.url
 
