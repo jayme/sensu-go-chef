@@ -14,6 +14,7 @@ chef_version '>= 15.0'
   centos
   redhat
   fedora
+  freebsd
   scientific
   oracle
   amazon

@@ -58,6 +58,7 @@ end
 default_ca_cert = value_for_platform_family(
   %w(rhel fedora amazon) => '/etc/ssl/certs/ca-bundle.crt',
   'debian' => '/etc/ssl/certs/ca-certificates.crt',
+  'freebsd' => '/etc/ssl/cert.pem',
   'windows' => ''
 )
 
